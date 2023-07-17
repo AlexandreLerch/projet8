@@ -5,4 +5,11 @@
     max-width: 1240px;
     justify-content: space-between;
     align-items: center;
+    background-color: blueviolet;
+  }
+  
+
+  img {
+    width : 300px;
+    margin: 50px;
   }

@@ -2,7 +2,28 @@
 	{
 		"id": "001",
 		"title": "booki",
-		"cover": "../../images/Image1.png",
+		"cover": "/images/Image1.png",
+		"description": "Il faut faire la mise en page d'une agence de voyage",
+		"langages": [
+			"html",
+			"css"
+		],
+		"compétences": [
+			"responsive",
+			"ancres"
+			],
+		
+		"contexte": "Formation Openclassrooms",
+			
+		"tags": [
+			"mise en page"
+		]
+	},
+
+	{
+		"id": "002",
+		"title": "Sophie Bluel",
+		"cover": "/images/Image2.png",
 		"description": "Il faut faire la mise en page d'une agence de voyage",
 		"langages": [
 			"html",
@@ -19,4 +40,6 @@
 			"mise en page"
 		]
 	}
+
+	
 ]

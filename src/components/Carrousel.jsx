@@ -1,21 +1,54 @@
-// import React from "react";
-// import jsonData from "../data/travaux.json";
+import React from "react";
+import "../styles/carrousel.css";
+import { useState } from "react";
 
-// const Carrousel = () => {
-//   const FicheLogement = () => {
-   
-//     // const { logementId } = useParams();
-//     const objet = jsonData.find((item) => item.id === logementId);
+const Carrousel = ({ objet }) => {
+    console.log(objet[0].cover)
+
+    const covers = objet.map((objet) => objet.cover);
+    console.log(covers)
+
+    const [currentIndex, setCurrentIndex] = useState(0);
+
+  
+
+    const goToPrevious = () => {
+        const isFirstSlide = currentIndex === 0;
+        const newIndex = isFirstSlide ? covers.length - 1 : currentIndex - 1;
+        setCurrentIndex(newIndex);
+      };
+    
+      const goToNext = () => {
+        const isLastSlide = currentIndex === covers.length - 1;
+        const newIndex = isLastSlide ? 0 : currentIndex + 1;
+        setCurrentIndex(newIndex);
+      };
+
+      return (
+        <div className="sliderStyles">
+      <div
+        className="slideStyles"
+        style={{ backgroundImage: `url(${covers[currentIndex]})` }}
+      >
+        {covers.length !== 1 && (
+          <React.Fragment>
+            
+          <div className="fleches">
+              <img onClick={goToPrevious} src ="../fleche-left.png" alt="left-arrow"/>
+         
+              <img onClick={goToNext} src ="../fleche-right.png" alt="right-arrow"/>
+              </div>
+              <div className="numerotation">
+        <p>{currentIndex + 1}/{covers.length}</p>
+      </div>
+          </React.Fragment>
+        )}
+      </div>
+    </div>
+      )
+
+}
 
 
 
-
-//     return (
-//         <div className="Carrousel">
-//           <p>La tentation, c'est maintenant</p>
-          
-//         </div>
-//     );
-// };
-
-// export default Carrousel
+export default Carrousel
