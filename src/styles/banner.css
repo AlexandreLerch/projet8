@@ -1,0 +1,8 @@
+.banner {
+    height: 171px;
+    background-color: grey;
+    margin-inline: auto;
+    width: 95%;
+    justify-content: space-between;
+    align-items: center;
+  }

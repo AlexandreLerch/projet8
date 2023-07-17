@@ -1,0 +1,9 @@
+.competences {
+    height: 171px;
+    background: grey;
+    margin-inline: auto;
+    width: 95%;
+    max-width: 1240px;
+    justify-content: space-between;
+    align-items: center;
+  }

@@ -1,0 +1,22 @@
+[
+	{
+		"id": "001",
+		"title": "booki",
+		"cover": "../../images/Image1.png",
+		"description": "Il faut faire la mise en page d'une agence de voyage",
+		"langages": [
+			"html",
+			"css"
+		],
+		"compétences": [
+			"responsive",
+			"ancres"
+			],
+		
+		"contexte": "Formation Openclassrooms",
+			
+		"tags": [
+			"mise en page"
+		]
+	}
+]
