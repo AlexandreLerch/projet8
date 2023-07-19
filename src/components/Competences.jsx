@@ -4,13 +4,18 @@ import "../styles/competences.css"
 
 const Competences = () => {
     return (
-        <div className="competences" id="competences">
-            <h1 >Je suis beau</h1>
-            <h1 >Je suis fort</h1>
-            <h1 >Je sais trèsbien coder</h1>
+        <section className="competences" id="competences">
+            <div>
+            <h1 >Mes compétences</h1>
+            <ul>
+                <li><h3>Développemnt web</h3></li>
+                <li><h3>Autres compétences informatiques</h3></li>
+                <li><h3>Connaissances générales</h3></li>
+            </ul>
+            </div>
 
             
-        </div>
+        </section>
     );
 };
 

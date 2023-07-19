@@ -1,66 +1,47 @@
 .navigation {
+  position: fixed;
+  background-color: white;
   display: flex;
-  height: 45px;
-  margin-inline: auto;
-  width: 95%;
-  max-width: 1240px;
+  height: 50px;
+  width: 100%;
+  z-index:2;
   justify-content: right;
   align-items: center;
-    margin-inline: auto;
-    justify-content: space-between;
-    align-items: center;
 }  
   /* ok */
   .navigation ul {
-    display: flex;
+    display: grid;
+    width: min-content;
     gap: 25px;
+     grid-template-columns: 150px 150px 150px;
   }
   
   /* ok */
-  .navigation ul a {
+  .navigation ul li {
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+  }
+
+  .navigation ul li a {
+    display: flex;
+    width: auto;
+    flex-wrap: wrap;
+    justify-content: center;
     text-decoration: none;
   }
+
   /* ok */
-  .navigation ul a li {
+  /* .navigation ul a li {
     font-size: 18px;
+    width: min-content;
     color: black;
     cursor: pointer;
-  }
+  } */
   
   /* ok */
-  .navigation ul .nav-active {
+  /* .navigation ul .nav-active {
    text-decoration: none;
    color: #ff6060;
-  }
-  
-  /* ok */
-  li {
-    list-style-type: none;
-    font-size: 24px;
-  }
-  
-
-  @media screen and (max-width: 600px) {
-    .Banner_nav {
-        height: 83px;
-        width: 95%;
-      }
-      
-      .Banner_nav img {
-        height: 43px;
-      }
-
-      .navigation ul {
-        gap: 10px;
-      }
-      li {
-        font-size: 18px;
-      }
-
-
-
-
-
-
-
-}
+  } */
+ 

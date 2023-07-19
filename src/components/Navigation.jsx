@@ -1,5 +1,4 @@
 import React from 'react';
-// import { Anchor } from 'antd';
 import "../styles/navigation.css";
 
 const Navigation = () => {

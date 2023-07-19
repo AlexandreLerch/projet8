@@ -1,18 +1,16 @@
-section {
+.banner {
+  position: relative;
   display: flex;
-  background: url(../../public/images/Banner-font.jpg);
+ z-index: 2;
   height: 500px;
-  background-repeat: no-repeat; /* Empêche la répétition de l'image */
-  background-size: cover;
-  background-position: center;
-  background-color: grey;
+  background-color: none;
   margin-inline: auto;
   width: 100%;
   justify-content: space-between;
-  align-items:end;
+  align-items: flex-end;
 }
 
-section div {
+.title_div {
   display: flex;
   flex-direction:column;
   margin-left: 8%;

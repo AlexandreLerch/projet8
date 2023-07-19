@@ -11,7 +11,9 @@ import Travaux from "../components/Travaux";
 const Home = () => {
     
     return (
+    
       <div className="home">
+         <img src="/images/Banner-font.jpg" id="image-banner" alt="Banner" />
          <Navigation />
          <Banner />
          <About_me id="about" />

@@ -1,12 +1,14 @@
 .travaux {
-    height: 171px;
+  position: relative;
+  background-color: white;
+    height: 471px;
     margin-inline: auto;
     justify-content: space-between;
     align-items: center;
-    background-color: blueviolet;
+  
   }
 
   img {
     width : 300px;
-    margin: 50px;
+    /* margin-top: 50px; */
   }

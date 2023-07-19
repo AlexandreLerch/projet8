@@ -1,6 +1,12 @@
 .about_me {
-    height: 171px;
+  position: relative;
+  background-color: white;
+  display: flex;  
+  height: 351px;
     margin-inline: auto;
     justify-content: space-between;
     align-items: center;
+    justify-content: center;
+    align-items: center;
   }
+

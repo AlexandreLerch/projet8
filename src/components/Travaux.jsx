@@ -11,14 +11,14 @@ const Travaux = () => {
     const image = objet.cover
 
     return (
-        <div className="travaux" id="travaux">
-           
-          <p>Je vais tenter des trucs</p>
-          {/* <Carrousel /> */}
+        <section className="travaux" id="travaux">
+           <div>
+          <h1>Mes travaux</h1>
+     
          <p> je tente de sortir la description : {description}</p>
-          <Carrousel key={objet.id} objet={objet}/>
-         <img src ={image}/>
-        </div>
+          <Carrousel key={objet.id} objet={objet} id="carrousel"/>
+         </div>
+        </section>
     );
 };
 

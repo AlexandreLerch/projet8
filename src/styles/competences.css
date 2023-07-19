@@ -1,7 +1,32 @@
 .competences {
-    height: 171px;
-    background: grey;
-    margin-inline: auto;
-    justify-content: space-between;
-    align-items: center;
+display: flex;
+flex-direction: column;
+  position: relative;
+    height: 550px;
+    background: none;
+    justify-content: center;
+    z-index:1;
   }
+
+  .competences div {
+    display: flex;
+    flex-direction:column;
+    margin-left: 8%;
+    width: 700px;
+    /* margin-bottom: 100px; */
+  
+  }
+
+
+.competences ul {
+  display: grid;
+  grid-template-columns: 500px ;
+  grid-template-rows: 120px 120px 120px;
+  justify-content: space-between;
+}
+
+.competences ul li {
+  width: 400px;
+  display: flex;
+
+}

@@ -6,7 +6,7 @@ import "../styles/banner.css"
 const Banner = () => {
     return (
         <section className="banner">
-            <div className= "title">
+            <div className= "title_div">
                 <h1 >Alexandre Lerch</h1>
                 <h2>Développeur full stack</h2>
                 <p>A travers cette page, je vous invite à découvrir</p>
