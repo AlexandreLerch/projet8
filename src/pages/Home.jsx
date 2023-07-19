@@ -14,9 +14,10 @@ const Home = () => {
       <div className="home">
          <Navigation />
          <Banner />
-         <About_me/>
-         <Competences />
-         <Travaux/>
+         <About_me id="about" />
+         <Competences id="competences"/>
+         <Travaux id="travaux" />
+         {/* <Contact id = "contact" /> */}
       </div>
     );
   };

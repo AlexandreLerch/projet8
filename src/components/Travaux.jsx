@@ -11,7 +11,8 @@ const Travaux = () => {
     const image = objet.cover
 
     return (
-        <div className="travaux">
+        <div className="travaux" id="travaux">
+           
           <p>Je vais tenter des trucs</p>
           {/* <Carrousel /> */}
          <p> je tente de sortir la description : {description}</p>

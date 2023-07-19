@@ -1,13 +1,10 @@
 .travaux {
     height: 171px;
     margin-inline: auto;
-    width: 95%;
-    max-width: 1240px;
     justify-content: space-between;
     align-items: center;
     background-color: blueviolet;
   }
-  
 
   img {
     width : 300px;

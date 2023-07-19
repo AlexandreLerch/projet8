@@ -1,19 +1,19 @@
-
-/* OK */
-.nav {
-    display: flex;
-    height: 171px;
+.navigation {
+  display: flex;
+  height: 45px;
+  margin-inline: auto;
+  width: 95%;
+  max-width: 1240px;
+  justify-content: right;
+  align-items: center;
     margin-inline: auto;
-    width: 95%;
-    max-width: 1240px;
     justify-content: space-between;
     align-items: center;
-  }
-  
+}  
   /* ok */
   .navigation ul {
     display: flex;
-    gap: 57px;
+    gap: 25px;
   }
   
   /* ok */
@@ -22,13 +22,14 @@
   }
   /* ok */
   .navigation ul a li {
-    color: #ff6060;
+    font-size: 18px;
+    color: black;
     cursor: pointer;
   }
   
   /* ok */
   .navigation ul .nav-active {
-   text-decoration: underline;
+   text-decoration: none;
    color: #ff6060;
   }
   

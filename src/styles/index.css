@@ -129,9 +129,12 @@ table {
 }
 /** end reset css**/
 
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+
 body {
+  font-family: 'Montserrat', sans-serif;
   display: flex;
-  max-width: 1440px;
   width: 100%;
   margin-inline: auto;
   background-color: white;
@@ -140,4 +143,18 @@ body {
 
 #root {
   width: 100%
+}
+
+h1 {
+  font-size: 55px;
+  color: grey
+}
+
+h2 {
+  font-size: 25px;
+  color: grey
+}
+
+p {
+  color: grey;
 }

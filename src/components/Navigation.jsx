@@ -1,39 +1,16 @@
-import React from "react";
-import { NavLink } from "react-router-dom";
+import React from 'react';
+// import { Anchor } from 'antd';
 import "../styles/navigation.css";
 
 const Navigation = () => {
   return (
-    <div className="nav">
-      <div className="navigation">
-        <ul>
-          <NavLink
-            to="/"
-            className={(nav) => (nav.isActive ? "nav-active" : "")}
-          >
-            <li>A propos</li>
-          </NavLink>
-          <NavLink
-            to="/"
-            className={(nav) => (nav.isActive ? "nav-active" : "")}
-          >
-            <li>Mes compétences</li>
-          </NavLink>
-          <NavLink
-            to="/"
-            className={(nav) => (nav.isActive ? "nav-active" : "")}
-          >
-            <li>Mes travaux</li>
-          </NavLink>
-          <NavLink
-            to="/"
-            className={(nav) => (nav.isActive ? "nav-active" : "")}
-          >
-            <li>Contact</li>
-          </NavLink>
-        </ul>
-      </div>
-    </div>
+    <nav className="navigation">
+    <ul>
+      <li><a href="#about">A propos</a></li>
+      <li><a href="#competences">Compétences</a></li>
+      <li><a href="#travaux">Travaux</a></li>
+    </ul>
+  </nav>
   );
 };
 

@@ -4,7 +4,7 @@ import "../styles/competences.css"
 
 const Competences = () => {
     return (
-        <div className="competences">
+        <div className="competences" id="competences">
             <h1 >Je suis beau</h1>
             <h1 >Je suis fort</h1>
             <h1 >Je sais trèsbien coder</h1>
