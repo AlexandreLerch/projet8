@@ -39,7 +39,49 @@
 		"tags": [
 			"mise en page"
 		]
-	}
+	},
+
+	{
+		"id": "003",
+		"title": "Kaza",
+		"cover": "/images/Image3.png",
+		"description": "Il faut faire la mise en page d'une agence de voyage",
+		"langages": [
+			"html",
+			"css"
+		],
+		"compétences": [
+			"responsive",
+			"ancres"
+			],
+		
+		"contexte": "Formation Openclassrooms",
+			
+		"tags": [
+			"mise en page"
+		]
+	},
 
 	
+	{
+		"id": "003",
+		"title": "Vieux Grimoires",
+		"cover": "/images/Image4.png",
+		"description": "Notation de livres",
+		"langages": [
+			"html",
+			"css"
+		],
+		"compétences": [
+			"responsive",
+			"ancres"
+			],
+		
+		"contexte": "Formation Openclassrooms",
+			
+		"tags": [
+			"mise en page"
+		]
+	}
+
 ]
