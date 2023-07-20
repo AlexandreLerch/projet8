@@ -53,20 +53,15 @@ const Carrousel = ({ objet }) => {
             <div className="fleches">
               <img
                 onClick={goToPrevious}
-                src="../fleche-left.png"
+                src="../arrow_left.png"
                 alt="left-arrow"
               />
 
               <img
                 onClick={goToNext}
-                src="../fleche-right.png"
+                src="../arrow_right.png"
                 alt="right-arrow"
               />
-            </div>
-            <div className="numerotation">
-              <p>
-                {currentIndex + 1}/{covers.length}
-              </p>
             </div>
           </React.Fragment>
         )}
