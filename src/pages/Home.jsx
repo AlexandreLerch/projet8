@@ -2,8 +2,9 @@ import React from "react";
 import Navigation from "../components/Navigation";
 import Banner from "../components/Banner";
 import Competences from "../components/Competences";
-import About_me from "../components/About_me";
+import AboutMe from "../components/AboutMe";
 import Travaux from "../components/Travaux";
+import Contact from "../components/Contact";
 
 
 
@@ -16,10 +17,10 @@ const Home = () => {
          <img src="/images/Banner-font.jpg" id="image-banner" alt="Banner" />
          <Navigation />
          <Banner />
-         <About_me id="about" />
+         <AboutMe id="about" />
          <Competences id="competences"/>
          <Travaux id="travaux" />
-         {/* <Contact id = "contact" /> */}
+        <Contact id = "contact" />
       </div>
     );
   };

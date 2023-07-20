@@ -1,14 +1,11 @@
 .travaux {
+  padding-top: 35px;
+  padding-bottom: 50px;
   position: relative;
+  display: flex;
+  flex-direction: column;
   background-color: white;
-    height: 471px;
-    margin-inline: auto;
-    justify-content: space-between;
-    align-items: center;
-  
+  justify-content: space-between;
+  align-items: center;
   }
 
-  img {
-    width : 300px;
-    /* margin-top: 50px; */
-  }

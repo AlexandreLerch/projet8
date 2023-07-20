@@ -1,10 +1,10 @@
 import React from 'react';
-import "../styles/about_me.css";
+import "../styles/aboutMe.css";
 
 
-const About_me = () => {
+const AboutMe = () => {
     return (
-        <section className="about_me" id="about">
+        <section className="aboutMe" id="about">
           <div className="a_propos">
             <h1>A propos de moi...</h1>
             <p>Bonjour aujourd'hui je vais faire un blabla très court pour parler de moi et de mes compétences en développement<br />
@@ -14,4 +14,4 @@ const About_me = () => {
     );
 };
 
-export default About_me;
+export default AboutMe;

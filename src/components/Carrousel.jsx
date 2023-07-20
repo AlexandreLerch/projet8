@@ -25,7 +25,29 @@ const Carrousel = ({ objet }) => {
       };
 
       return (
-        <div className="sliderStyles">
+        <div className="carrousel">
+
+
+
+<div
+        className="slideStyles"
+        style={{ backgroundImage: `url(${covers[currentIndex]})` }}
+      >
+        {covers.length !== 1 && (
+          <React.Fragment>
+            
+          <div className="fleches">
+              <img onClick={goToPrevious} src ="../fleche-left.png" alt="left-arrow"/>
+         
+              <img onClick={goToNext} src ="../fleche-right.png" alt="right-arrow"/>
+              </div>
+          </React.Fragment>
+        )}
+      </div>
+
+
+
+
       <div
         className="slideStyles"
         style={{ backgroundImage: `url(${covers[currentIndex]})` }}
@@ -48,7 +70,5 @@ const Carrousel = ({ objet }) => {
       )
 
 }
-
-
 
 export default Carrousel

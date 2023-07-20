@@ -8,7 +8,6 @@ const Travaux = () => {
     const objet = jsonData
     console.log(objet)
     const description = objet.description
-    const image = objet.cover
 
     return (
         <section className="travaux" id="travaux">
@@ -16,8 +15,10 @@ const Travaux = () => {
           <h1>Mes travaux</h1>
      
          <p> je tente de sortir la description : {description}</p>
+  </div>
+
           <Carrousel key={objet.id} objet={objet} id="carrousel"/>
-         </div>
+       
         </section>
     );
 };

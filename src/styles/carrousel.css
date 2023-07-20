@@ -1,21 +1,11 @@
 .carrousel {
-  
-    width: 250px;
-    width:150px;
-    margin-inline: auto;
+margin-top: 55px;
   }
 
-
-  .carrousel .sliderStyles {
-    display: flex;
-    width: 250px;
-    height: 250px;
-  }
-  
   .slideStyles {
     display: flex;
-    width: 50%;
-    height: 100px;
+    width: 270px;
+    height: 350px;
     justify-content: center;
     position: relative;
     align-items: center;
@@ -33,15 +23,4 @@
     justify-content: space-between;
     top: 42%;
     padding-top: auto;
-    padding-inline: 23px;
-  }
-
-  .fleches {
-    width: 100%;
-    display: flex;
-    position: absolute;
-    justify-content: space-between;
-    top: 42%;
-    padding-top: auto;
-    padding-inline: 23px;
   }
