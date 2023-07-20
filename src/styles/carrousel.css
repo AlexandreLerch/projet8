@@ -1,10 +1,31 @@
 .carrousel {
+
+  display: flex;
+  width: 1000px;
+  justify-content: space-between;
 margin-top: 55px;
+align-items: center;
+  }
+
+
+  .slideStylesA {
+    display: flex;
+    width: 170px;
+    height: 250px;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+    justify-content: space-between;
+    border-radius: 25px;
+    margin-inline: auto;
   }
 
   .slideStyles {
     display: flex;
     width: 270px;
+    border-bottom: 1px solid grey;
     height: 350px;
     justify-content: center;
     position: relative;
@@ -16,6 +37,20 @@ margin-top: 55px;
     margin-inline: auto;
   }
   
+  .slideStylesB {
+    display: flex;
+    width: 170px;
+    height: 250px;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+    justify-content: space-between;
+    border-radius: 25px;
+    margin-inline: auto;
+  }
+
   .fleches {
     width: 100%;
     display: flex;

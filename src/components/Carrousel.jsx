@@ -40,7 +40,7 @@ const Carrousel = ({ objet }) => {
   return (
     <div className="carrousel">
       <div
-        className="slideStyles"
+        className="slideStylesA"
         style={{ backgroundImage: `url(${covers[currentIndexA]})` }}
       ></div>
 
@@ -73,7 +73,7 @@ const Carrousel = ({ objet }) => {
       </div>
 
       <div
-        className="slideStyles"
+        className="slideStylesB"
         style={{ backgroundImage: `url(${covers[currentIndexB]})` }}
       ></div>
 
