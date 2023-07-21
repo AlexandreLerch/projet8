@@ -2,39 +2,46 @@
   position: fixed;
   background-color: white;
   display: flex;
-  height: 50px;
+  height: 65px;
   width: 100%;
   z-index:3;
   justify-content: right;
   align-items: center;
+ 
 }  
   /* ok */
   .navigation ul {
     position: absolute;
-    display: grid;
+    display: flex;
     width: min-content;
     gap: 25px;
-     grid-template-columns: 130px 130px 130px 130px;
+
+     padding-right: 100px;
   }
   
   /* ok */
   .navigation ul li {
     display: flex;
     text-decoration: none;
+    height: 30px;
+    width: auto;
     justify-content: center;
   }
 
   .navigation ul li a {
     display: flex;
-    width: auto;
+    width:auto;
+    min-width: 150px;
     flex-wrap: wrap;
     justify-content: center;
     text-decoration: none;
     color: grey;
+    font-size: 20px;
   }
 
   a:hover {
-font-size: 18px;
+font-weight: bold;
+color: grey;
   }
 
   /* ok */

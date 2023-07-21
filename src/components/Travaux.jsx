@@ -7,14 +7,14 @@ import "../styles/travaux.css";
 const Travaux = () => {
     const objet = jsonData
     console.log(objet)
-    const description = objet.description
+    // const description = objet.description
 
     return (
         <section className="travaux" id="travaux">
            <div>
           <h1>Mes travaux</h1>
      
-         <p> je tente de sortir la description : {description}</p>
+         {/* <p> je tente de sortir la description : {description}</p> */}
   </div>
 
           <Carrousel key={objet.id} objet={objet} id="carrousel"/>

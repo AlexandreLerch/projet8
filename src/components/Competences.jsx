@@ -8,7 +8,7 @@ const Competences = () => {
             <div>
             <h1 >Mes compétences</h1>
             <ul>
-                <li><h3>Développemnt web</h3></li>
+                <li><h3>Développement web</h3></li>
                 <li><h3>Autres compétences informatiques</h3></li>
                 <li><h3>Connaissances générales</h3></li>
             </ul>
