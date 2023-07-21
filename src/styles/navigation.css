@@ -10,10 +10,11 @@
 }  
   /* ok */
   .navigation ul {
+    position: absolute;
     display: grid;
     width: min-content;
     gap: 25px;
-     grid-template-columns: 150px 150px 150px;
+     grid-template-columns: 130px 130px 130px 130px;
   }
   
   /* ok */
@@ -29,6 +30,11 @@
     flex-wrap: wrap;
     justify-content: center;
     text-decoration: none;
+    color: grey;
+  }
+
+  a:hover {
+font-size: 18px;
   }
 
   /* ok */

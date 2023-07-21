@@ -8,6 +8,8 @@ const Navigation = () => {
       <li><a href="#about">A propos</a></li>
       <li><a href="#competences">Compétences</a></li>
       <li><a href="#travaux">Travaux</a></li>
+      <li><a href="#contact">Contact</a></li>
+
     </ul>
   </nav>
   );
