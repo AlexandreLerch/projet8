@@ -18,5 +18,4 @@ const Competences = () => {
         </section>
     );
 };
-
 export default Competences;
