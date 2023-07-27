@@ -10,9 +10,14 @@
   align-items: flex-end;
 }
 
+.banner h2 {
+  padding-bottom: 20px;
+}
+
 .title_div {
   display: flex;
   flex-direction:column;
   margin-left: 8%;
   margin-bottom: 100px;
 }
+

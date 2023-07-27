@@ -5,6 +5,7 @@
     flex-direction: column;
     height: auto;
     background-color: rgb(198, 190, 190);
+    opacity: 0.8;
     align-items: center;
     padding-bottom: 165px;
 }

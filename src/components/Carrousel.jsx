@@ -7,8 +7,11 @@ const Carrousel = ({ objet }) => {
 
   const covers = objet.map((objet) => objet.cover);
   console.log(covers);
+  const links = objet.map((objet) => objet.link);
+  
 
   const [currentIndex, setCurrentIndex] = useState(0);
+  const [currentLink, setCurrentLink] = useState(0);
   const [currentIndexA, setCurrentIndexA] = useState(covers.length - 1);
   const [currentIndexB, setCurrentIndexB] = useState(1);
   const goToPrevious = () => {
@@ -21,7 +24,7 @@ const Carrousel = ({ objet }) => {
     setCurrentIndex(newIndex);
     setCurrentIndexA(newIndexA);
     setCurrentIndexB(newIndexB);
-
+    setCurrentLink(newIndex)
   };
 
   const goToNext = () => {
@@ -32,24 +35,35 @@ const Carrousel = ({ objet }) => {
     const newIndexA = isLastSlideA ? 0 : currentIndexA + 1;
     const newIndexB = isLastSlideB ? 0 : currentIndexB + 1;
     setCurrentIndex(newIndex);
+    setCurrentLink(newIndex)
     setCurrentIndexA(newIndexA);
     setCurrentIndexB(newIndexB);
-    
   };
-
   return (
     <div className="carrousel">
+      
       <div
         className="slideStylesA"
         style={{ backgroundImage: `url(${covers[currentIndexA]})` }}
       ></div>
 
+
+
+<div className="center">
+
+<a href={links[currentLink]}>
+
+
+
       <div
         className="slideStyles"
         style={{ backgroundImage: `url(${covers[currentIndex]})` }}
       >
+        </div>
+      </a> 
+
         {covers.length !== 1 && (
-          <React.Fragment>
+          
             <div className="fleches">
               <img
                 onClick={goToPrevious}
@@ -63,16 +77,16 @@ const Carrousel = ({ objet }) => {
                 alt="right-arrow"
               />
             </div>
-          </React.Fragment>
+      
         )}
-      </div>
+           </div>
+     
+
 
       <div
         className="slideStylesB"
         style={{ backgroundImage: `url(${covers[currentIndexB]})` }}
       ></div>
-
-
     </div>
   );
 };

@@ -1,6 +1,7 @@
 .aboutMe {
   position: relative;
   background-color: white;
+  opacity: 0.8;
   padding-top: 85px;
   display: flex;  
 
