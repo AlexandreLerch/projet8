@@ -1,4 +1,5 @@
 import React from "react";
+import Modale from "./Modale";
 import "../styles/carrousel.css";
 import { useState } from "react";
 
@@ -8,10 +9,12 @@ const Carrousel = ({ objet }) => {
   const covers = objet.map((objet) => objet.cover);
   console.log(covers);
   const links = objet.map((objet) => objet.link);
-  
+  const descriptions = objet.map((objet) => objet.description);
+  let descriptionToPass
 
   const [currentIndex, setCurrentIndex] = useState(0);
   const [currentLink, setCurrentLink] = useState(0);
+  const [currentDescription, setCurrentDescription] = useState(0);
   const [currentIndexA, setCurrentIndexA] = useState(covers.length - 1);
   const [currentIndexB, setCurrentIndexB] = useState(1);
   const goToPrevious = () => {
@@ -24,8 +27,14 @@ const Carrousel = ({ objet }) => {
     setCurrentIndex(newIndex);
     setCurrentIndexA(newIndexA);
     setCurrentIndexB(newIndexB);
-    setCurrentLink(newIndex)
-  };
+    setCurrentLink(newIndex);
+    setCurrentDescription(newIndex);
+ };
+ descriptionToPass = descriptions[currentDescription];
+ console.log(descriptions[currentDescription])
+ console.log(currentDescription)
+
+
 
   const goToNext = () => {
     const isLastSlide = currentIndex === covers.length - 1;
@@ -38,6 +47,8 @@ const Carrousel = ({ objet }) => {
     setCurrentLink(newIndex)
     setCurrentIndexA(newIndexA);
     setCurrentIndexB(newIndexB);
+
+
   };
   return (
     <div className="carrousel">
@@ -87,7 +98,10 @@ const Carrousel = ({ objet }) => {
         className="slideStylesB"
         style={{ backgroundImage: `url(${covers[currentIndexB]})` }}
       ></div>
+      <div><p>`{descriptions[currentDescription]}`</p></div>
+
     </div>
+  
   );
 };
 

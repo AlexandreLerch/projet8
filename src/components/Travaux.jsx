@@ -1,8 +1,9 @@
 import React from "react";
 import Carrousel from "./Carrousel";
+
 import jsonData from "../data/travaux.json";
 import "../styles/travaux.css";
-
+import "../modales.js";
 
 const Travaux = () => {
     const objet = jsonData

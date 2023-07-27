@@ -25,10 +25,11 @@
 		"id": "002",
 		"title": "Sophie Bluel",
 		"cover": "/images/Image2.png",
-		"description": "Il faut faire la mise en page d'une agence de voyage",
+		"description": "Il faut faire un portfolio pour une architecte d'intérieur",
 		"langages": [
 			"html",
-			"css"
+			"css",
+			"javascript"
 		],
 		"compétences": [
 			"responsive",
@@ -47,7 +48,7 @@
 		"id": "003",
 		"title": "Kaza",
 		"cover": "/images/Image3.png",
-		"description": "Il faut faire la mise en page d'une agence de voyage",
+		"description": "réservation logements",
 		"langages": [
 			"html",
 			"css"
@@ -67,7 +68,7 @@
 
 	
 	{
-		"id": "003",
+		"id": "004",
 		"title": "Vieux Grimoires",
 		"cover": "/images/Image4.png",
 		"description": "Notation de livres",
