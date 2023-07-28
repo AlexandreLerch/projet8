@@ -8,9 +8,8 @@ const Modale = (props) => {
   
   return (
     
-<div className="modale" style={{ display: "none" }}>
+<div className="modale" style={{ display: "hidden" }}>
 <p>{text}</p>
-<p>ouraourauouuouararar</p>
 </div>
  
   );

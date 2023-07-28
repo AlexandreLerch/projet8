@@ -3,7 +3,7 @@
 		"id": "001",
 		"title": "booki",
 		"cover": "/images/Image1.png",
-		"description": "Il faut faire la mise en page d'une agence de voyage",
+		"description": "Ma mission était de faire la mise en page du site Booki, spécialisé dans la location de logements entre particuliers. A partir d'une maquette réalisée sur Figma, j'ai réalisé la partie frontend du site en utilisant les langages HTML et CSS.",
 		"langages": [
 			"html",
 			"css"
@@ -25,7 +25,7 @@
 		"id": "002",
 		"title": "Sophie Bluel",
 		"cover": "/images/Image2.png",
-		"description": "Il faut faire un portfolio pour une architecte d'intérieur",
+		"description": "Cette mission consistait à rendre le portfolio d'une architecte d'intérieur dynamique. En utilisant JAVSCRIPT, j'ai créé une modale de connection qui donnait accès à la gestion des projets (ajout, suppression, modification...). La mise en page a été réalisée en HTLM ET CSS.",
 		"langages": [
 			"html",
 			"css",
@@ -48,10 +48,11 @@
 		"id": "003",
 		"title": "Kaza",
 		"cover": "/images/Image3.png",
-		"description": "réservation logements",
+		"description": "Kasa est un site de réservation de logements entreparticuliers. Pour développer le frontend du site, j'ai utilisé la bibliothèque REACT, qui m'a permis de gérer la mise en place des différents composants.",
 		"langages": [
 			"html",
-			"css"
+			"css",
+			"react"
 		],
 		"compétences": [
 			"responsive",
@@ -71,7 +72,7 @@
 		"id": "004",
 		"title": "Vieux Grimoires",
 		"cover": "/images/Image4.png",
-		"description": "Notation de livres",
+		"description": "Les vieux grimoires est un site développé pour une chaine de librairies, permettant aux utilisateurs de noter leurs lectures. J'ai réalisé la partie backend du site en utilisant le framework EXPRESS de NODE.JS.",
 		"langages": [
 			"html",
 			"css"

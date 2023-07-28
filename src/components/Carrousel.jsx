@@ -49,6 +49,7 @@ const Carrousel = ({ objet }) => {
   console.log(textToPass);
 
   return (
+    <div className="carroussel_et_modale">
     <div className="carrousel">
       <div
         className="slideStylesA"
@@ -82,11 +83,11 @@ const Carrousel = ({ objet }) => {
       <div
         className="slideStylesB"
         style={{ backgroundImage: `url(${covers[currentIndexB]})` }}
-      ></div>
-      <div>
-        <p>{descriptions[currentDescription]}</p>
+      >
       </div>
-      <Modale textToInsert={textToPass}/>
+     
+    </div>
+    <Modale textToInsert={textToPass}/>
     </div>
   );
 };
