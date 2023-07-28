@@ -7,11 +7,14 @@ const AboutMe = () => {
       <div className="a_propos">
         <h1>A propos de moi...</h1>
         <p>
-          Bonjour aujourd'hui je vais faire un blabla très court pour parler de
-          moi et de mes compétences en développement
+          Je suis Alexandre Lerch, développeur fullstack en freelance. Après avoir exploré différents milieux professionnels, je me suis lancé dans le développement web.
           <br />
-          Aussi, je suis très intéressé pour rendre vos projets esthétiques et
-          blbsdbfbvpfvfvbpbpbdbvb
+          
+          Après une année de formation chez OpenClassrooms, je maitrise les bases des principales t'echnologies utilisées actuellement.
+          <br />
+          <br />
+          Particulièrement soigneux, j'apporte une importance particulière à la propreté de mes réalisations et à la qualité de mes échanges avec mes clients.
+
         </p>
         <div className="liens">
           <a href="https://www.facebook.com/openclassroomsfr">

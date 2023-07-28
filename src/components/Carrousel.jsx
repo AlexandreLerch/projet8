@@ -1,8 +1,9 @@
 import React from "react";
-import Modale from "./Modale";
+
 import "../styles/carrousel.css";
 import { useState } from "react";
 // import "../modales.js";
+import Modale from "./Modale";
 
 const Carrousel = ({ objet }) => {
   console.log(objet[0].cover);
