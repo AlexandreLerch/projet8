@@ -1,7 +1,26 @@
-import React from "react";
+import React, { useRef } from "react";
 import "../styles/contact.css";
+import emailjs from "@emailjs/browser";
 
 const Contact = () => {
+
+  const form = useRef();
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm("service_5r7ybev", "template_paphfmc", form.current, "SkZQBjmeepRBInZQR").then(
+      (result) => {
+        console.log(result.text);
+      },
+      (error) => {
+        console.log(error.text);
+      }
+    );
+  };
+
+
+
+
   return (
     <section className="contact" id="contact">
       <>
@@ -11,7 +30,7 @@ const Contact = () => {
           <a href="mailto:alexandre.lerch@yahoo.fr">adresse</a>
         </p>
         <p> ou via le formulaire ci-dessous :</p>
-        <form method="get" action="">
+        <form ref={form} onSubmit={sendEmail}>
         <label>Votre prénom :</label>
         <input type="text" name="prenom" id="prenom"></ input>
         <label>Votre nom :</label>
@@ -23,9 +42,11 @@ const Contact = () => {
         <label for="ameliorer">Votre message :</label>
         <textarea name="message" id="message"></textarea>
         <div>
-        <input type="submit" value="Envoyer" id="submit"></input>
+        <input type="submit" value="Send" id="submit"></input>
         </div>
         </form>
+
+
         <p>Merci beaucoup, je vous répondrai très vite...</p>
       </>
     </section>

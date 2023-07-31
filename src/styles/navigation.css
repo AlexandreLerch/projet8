@@ -15,7 +15,6 @@
     display: flex;
     width: min-content;
     gap: 25px;
-
      padding-right: 100px;
   }
   
@@ -40,7 +39,7 @@
   }
 
   a:hover {
-font-weight: bold;
+font-weight: 600;
 color: grey;
   }
 

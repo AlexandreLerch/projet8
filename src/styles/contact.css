@@ -41,8 +41,9 @@ input {
 }
 
 textarea {
-    height: 100px;
-    width: 100%;
+resize: none;
+    height: 180px;
+    width: 550px;
 }
 
 form div {
@@ -56,4 +57,10 @@ form div {
     margin-top: 20px;
     width: 140px;
     cursor: pointer;
+  
+}
+
+#message {
+    font-family:'MS Shell Dlg 2';
+    font-size: 20px;
 }
