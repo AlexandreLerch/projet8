@@ -64,3 +64,8 @@ form div {
     font-family:'MS Shell Dlg 2';
     font-size: 20px;
 }
+
+#remerciement {
+    opacity: 0;
+    transition: opacity 0.5s;
+}

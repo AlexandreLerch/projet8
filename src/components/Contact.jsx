@@ -1,6 +1,7 @@
-import React, { useRef } from "react";
+import React, { useRef, useEffect } from "react";
 import "../styles/contact.css";
 import emailjs from "@emailjs/browser";
+import { addFormEventListener } from "../formulaire.js";
 
 const Contact = () => {
 
@@ -18,8 +19,9 @@ const Contact = () => {
     );
   };
 
-
-
+  useEffect(() => {
+    addFormEventListener(); // Ajouter l'écouteur d'événement après que le composant est monté
+  }, []);
 
   return (
     <section className="contact" id="contact">
@@ -30,7 +32,7 @@ const Contact = () => {
           <a href="mailto:alexandre.lerch@yahoo.fr">adresse</a>
         </p>
         <p> ou via le formulaire ci-dessous :</p>
-        <form ref={form} onSubmit={sendEmail}>
+        <form ref={form} onSubmit={sendEmail} id="formulaire">
         <label>Votre prénom :</label>
         <input type="text" name="prenom" id="prenom"></ input>
         <label>Votre nom :</label>
@@ -47,7 +49,7 @@ const Contact = () => {
         </form>
 
 
-        <p>Merci beaucoup, je vous répondrai très vite...</p>
+        <p id="remerciement">Merci beaucoup, je vous répondrai très vite...</p>
       </>
     </section>
   );
