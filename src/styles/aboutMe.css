@@ -3,9 +3,7 @@
   background-color: white;
   opacity: 0.8;
   padding-top: 85px;
-  display: flex;  
-
-    margin-inline: auto;
+  display: flex; 
     justify-content: space-between;
     align-items: center;
     justify-content: center;
@@ -21,6 +19,7 @@
   display: flex;
   flex-direction: column;
    align-items: center;
+   margin-inline: 10%;
 }
 
   .liens {

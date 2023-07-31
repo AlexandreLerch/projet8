@@ -3,7 +3,7 @@ import React from "react";
 import "../styles/carrousel.css";
 import { useState } from "react";
 // import "../modales.js";
-import Modale from "./Modale";
+// import Modale from "./Modale";
 
 const Carrousel = ({ objet }) => {
   console.log(objet[0].cover);
@@ -12,11 +12,12 @@ const Carrousel = ({ objet }) => {
   console.log(covers);
   const links = objet.map((objet) => objet.link);
   const descriptions = objet.map((objet) => objet.description);
+  const titles = objet.map((objet) => objet.title);
   console.log(descriptions);
 
   const [currentIndex, setCurrentIndex] = useState(0);
   const [currentLink, setCurrentLink] = useState(0);
-  const [currentDescription, setCurrentDescription] = useState(0);
+
   const [currentIndexA, setCurrentIndexA] = useState(covers.length - 1);
   const [currentIndexB, setCurrentIndexB] = useState(1);
   const goToPrevious = () => {
@@ -30,6 +31,7 @@ const Carrousel = ({ objet }) => {
     setCurrentIndexA(newIndexA);
     setCurrentIndexB(newIndexB);
     setCurrentLink(newIndex);
+    // setCurrentTitle(newIndex);
   };
 
   const goToNext = () => {
@@ -41,54 +43,56 @@ const Carrousel = ({ objet }) => {
     const newIndexB = isLastSlideB ? 0 : currentIndexB + 1;
     setCurrentIndex(newIndex);
     setCurrentLink(newIndex);
-    setCurrentDescription(newIndex);
+ 
     setCurrentIndexA(newIndexA);
     setCurrentIndexB(newIndexB);
   };
 
   const textToPass = descriptions[currentIndex];
   console.log(textToPass);
+  const title = titles[currentIndex];
 
   return (
     <div className="carroussel_et_modale">
-    <div className="carrousel">
-      <div
-        className="slideStylesA"
-        style={{ backgroundImage: `url(${covers[currentIndexA]})` }}
-      ></div>
+      <div className="carrousel">
+        <div
+          className="slideStylesA"
+          style={{ backgroundImage: `url(${covers[currentIndexA]})` }}
+        ></div>
 
-      <div className="center">
-        <a href={links[currentLink]}>
-          <div
-            className="slideStyles"
-            style={{ backgroundImage: `url(${covers[currentIndex]})` }}
-          ></div>
-        </a>
+        <div className="center">
+          <a href={links[currentLink]}>
+            <div
+              className="slideStyles"
+              style={{ backgroundImage: `url(${covers[currentIndex]})` }}
+            ></div>
+          </a>
+          <p className="modale" title="info">
+            {textToPass}
+          </p>
+          <h2>{title}</h2>
+          {covers.length !== 1 && (
+            <div className="fleches">
+              <img
+                onClick={goToPrevious}
+                src="../arrow_left.png"
+                alt="left-arrow"
+              />
 
-        {covers.length !== 1 && (
-          <div className="fleches">
-            <img
-              onClick={goToPrevious}
-              src="../arrow_left.png"
-              alt="left-arrow"
-            />
+              <img
+                onClick={goToNext}
+                src="../arrow_right.png"
+                alt="right-arrow"
+              />
+            </div>
+          )}
+        </div>
 
-            <img
-              onClick={goToNext}
-              src="../arrow_right.png"
-              alt="right-arrow"
-            />
-          </div>
-        )}
+        <div
+          className="slideStylesB"
+          style={{ backgroundImage: `url(${covers[currentIndexB]})` }}
+        ></div>
       </div>
-      <div
-        className="slideStylesB"
-        style={{ backgroundImage: `url(${covers[currentIndexB]})` }}
-      >
-      </div>
-     
-    </div>
-    <Modale textToInsert={textToPass}/>
     </div>
   );
 };
