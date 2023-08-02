@@ -57,3 +57,31 @@ color: grey;
    color: #ff6060;
   } */
  
+
+  @media screen and (max-width: 768px){
+
+    .navigation {
+      height: 95px;
+    }
+
+    .navigation ul  {
+      flex-wrap: wrap;
+      width: auto;
+      justify-content: center;
+    }
+
+  }
+
+  @media screen and (max-width: 481 ){
+    .navigation {
+      height: 150px;
+    }
+
+
+    .navigation ul  {
+  
+      flex-direction: column;
+      justify-content: center;
+    }
+
+}
