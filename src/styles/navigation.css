@@ -5,13 +5,13 @@
   height: 65px;
   width: 100%;
   z-index:6;
-  justify-content: right;
+  justify-content: flex-end;
   align-items: center;
  
 }  
   /* ok */
   .navigation ul {
-    position: absolute;
+    /* position: absolute; */
     display: flex;
     width: min-content;
     gap: 25px;
@@ -43,66 +43,23 @@ font-weight: 600;
 color: grey;
   }
 
-  /* ok */
-  /* .navigation ul a li {
-    font-size: 18px;
-    width: min-content;
-    color: black;
-    cursor: pointer;
-  } */
-  
-  /* ok */
-  /* .navigation ul .nav-active {
-   text-decoration: none;
-   color: #ff6060;
-  } */
- 
-/* 
-  @media screen and (max-width: 768px){
+  @media screen and (max-width: 1024px) {
+    /* Votre CSS pour la tablette ici */
 
     .navigation {
-      height: 95px;
+      justify-content: center;
     }
 
     .navigation ul  {
-      flex-wrap: wrap;
-      width: auto;
-      justify-content: center;
+   padding: 0;
+ 
     }
 
   }
 
-  @media screen and (max-width: 481 ){
-    .navigation {
-      height: 150px;
-    }
-
-
-    .navigation ul  {
-  
-      flex-direction: column;
-      justify-content: center;
-    }
-
-}
-
-
-  @media screen and (max-width: 1024px) {
-    /* Votre CSS pour la tablette ici */
-
-    /* .navigation {
-      justify-content: center;
-    }
-
-    .navigation ul  {
-   
-      justify-content: center;
-    }
-
-  } */
-
   @media screen and (max-width: 767px){
     .navigation {
+      height: auto;
 width: 100%;
     }
 
@@ -115,7 +72,7 @@ width: 100%;
   
     }
 
-    .navigation ul li {
+    .navigation ul li a{
       min-width: 10px;
     }
 

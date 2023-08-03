@@ -148,13 +148,15 @@ body {
   width: 100%;
 }
 
+.home {
+  overflow: hidden;
+}
+
 #image-banner{
   width: 100%;
   min-width: 1350px;
-  max-width: 1500px;
   position: fixed;
   z-index: 0;
-  position: contain;
 }
 
 h1 {
