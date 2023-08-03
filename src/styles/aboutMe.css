@@ -3,13 +3,13 @@
   background-color: white;
   opacity: 0.8;
   padding-top: 65px;
-  display: flex; 
-    justify-content: space-between;
-    align-items: center;
-    justify-content: center;
-    align-items: center;
-    padding-bottom: 40px;
-  }
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 40px;
+}
 
 .aboutMe h1 {
   padding-bottom: 35px;
@@ -18,18 +18,18 @@
 .a_propos {
   display: flex;
   flex-direction: column;
-   align-items: center;
-   margin-inline: 10%;
+  align-items: center;
+  margin-inline: 10%;
 }
 
 strong {
-font-weight: 600;
+  font-weight: 600;
 }
 
-  .liens {
-    display: flex;
-    width: 250px;
-    margin-top: 65px;
-    justify-content: space-between;
-    align-items: center;
-  }
+.liens {
+  display: flex;
+  width: 250px;
+  margin-top: 65px;
+  justify-content: space-between;
+  align-items: center;
+}
