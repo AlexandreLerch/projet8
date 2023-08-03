@@ -57,7 +57,7 @@ color: grey;
    color: #ff6060;
   } */
  
-
+/* 
   @media screen and (max-width: 768px){
 
     .navigation {
@@ -85,3 +85,38 @@ color: grey;
     }
 
 }
+
+
+  @media screen and (max-width: 1024px) {
+    /* Votre CSS pour la tablette ici */
+
+    /* .navigation {
+      justify-content: center;
+    }
+
+    .navigation ul  {
+   
+      justify-content: center;
+    }
+
+  } */
+
+  @media screen and (max-width: 767px){
+    .navigation {
+width: 100%;
+    }
+
+
+    .navigation ul  {
+      width: 100%;
+      display: grid;
+      grid-template-columns: 50% 50%;
+      /* justify-content: center; */
+  
+    }
+
+    .navigation ul li {
+      min-width: 10px;
+    }
+
+} 

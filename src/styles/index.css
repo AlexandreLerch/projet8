@@ -139,21 +139,22 @@ body {
   background-size: contain;
   font-family: 'Montserrat', sans-serif;
   display: flex;
-  width: 100%;
   margin-inline: auto;
   /* background-color: white; */
   justify-content: center;
 }
 
 #root {
-  width: 100%
+  width: 100%;
 }
 
 #image-banner{
   width: 100%;
   min-width: 1350px;
+  max-width: 1500px;
   position: fixed;
   z-index: 0;
+  position: contain;
 }
 
 h1 {
