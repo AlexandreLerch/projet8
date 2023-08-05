@@ -61,7 +61,7 @@ const Carrousel = ({ objet }) => {
         ></div>
 
         <div className="center">
-          <a href={links[currentLink]} target="_blank">
+          <a href={links[currentLink]} target="_blank" title="mon texte à voir">
             <div
               className="slideStyles"
               style={{ backgroundImage: `url(${covers[currentIndex]})` }}
@@ -78,7 +78,6 @@ const Carrousel = ({ objet }) => {
                 src="../arrow_left.png"
                 alt="left-arrow"
               />
-
               <img
                 onClick={goToNext}
                 src="../arrow_right.png"

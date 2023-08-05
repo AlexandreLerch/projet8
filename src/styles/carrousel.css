@@ -118,6 +118,23 @@ h2 {
 }
 
 
+
+.element {
+  position: relative;
+}
+
+.element::before {
+  content: attr(title);
+  position: absolute;
+  display: none; /* Masque l'étiquette par défaut */
+  /* Autres styles pour l'étiquette */
+}
+
+
+
+
+
+
 @media screen and (max-width: 767px) {
   .slideStylesA {
     display: none;
