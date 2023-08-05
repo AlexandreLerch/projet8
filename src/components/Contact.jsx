@@ -22,21 +22,17 @@ const Contact = () => {
   };
 
   useEffect(() => {
-    addFormEventListener(); // Ajouter l'écouteur d'événement après que le composant est monté
-    // closeAlert();
+    addFormEventListener();
   }, []);
 
-  // useEffect(() => {
-  //   // Ajouter l'écouteur d'événement après que le composant est monté
-  // }, []);
 
   return (
     <section className="contact" id="contact">
       <>
         <h1>Contact</h1>
         <p>
-          N'hésitez pas à me contacter à cette{" "}
-          <a href="mailto:alexandre.lerch@yahoo.fr">adresse</a>
+          N'hésitez pas à me contacter à cette adresse : {" "}
+          <a href="mailto:alexandre.lerch@yahoo.fr">alexandre.lerch@gmail.com</a>
         </p>
         <p> ou via le formulaire ci-dessous :</p>
         <form ref={form} onSubmit={sendEmail} id="formulaire">
@@ -51,7 +47,7 @@ const Contact = () => {
         <label for="ameliorer">Votre message :</label>
         <textarea name="message" id="message"></textarea>
         <div>
-        <input type="submit" value="Send" id="submit"></input>
+        <input type="submit" value="Envoyer" id="submit"></input>
         </div>
         </form>
 

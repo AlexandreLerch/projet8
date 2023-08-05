@@ -10,7 +10,7 @@ const AboutMe = () => {
           Je suis <strong>Alexandre Lerch, développeur fullstack</strong> en freelance. Après avoir exploré différents milieux professionnels, je me suis lancé dans le développement web.
           <br />
           
-          Après une année de formation chez <strong>OpenClassrooms</strong>, je maitrise les bases des principales t'echnologies utilisées actuellement.
+          Après une année de formation chez <strong>OpenClassrooms</strong>, je maitrise les bases des principales technologies utilisées actuellement.
           <br />
           <br />
           Particulièrement soigneux, j'apporte une importance particulière à la propreté de mes réalisations et à la qualité de mes échanges avec mes clients.

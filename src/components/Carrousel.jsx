@@ -61,7 +61,7 @@ const Carrousel = ({ objet }) => {
         ></div>
 
         <div className="center">
-          <a href={links[currentLink]}>
+          <a href={links[currentLink]} target="_blank">
             <div
               className="slideStyles"
               style={{ backgroundImage: `url(${covers[currentIndex]})` }}

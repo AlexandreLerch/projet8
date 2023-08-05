@@ -14,7 +14,7 @@ const Home = () => {
     return (
     
       <div className="home">
-         <img src="/images/Banner-font.jpg" id="image-banner" alt="Banner" />
+         <img src="/images/banner-font.jpg" id="image-banner" alt="Banner" />
          <Navigation />
          <Banner />
          <AboutMe id="about" />

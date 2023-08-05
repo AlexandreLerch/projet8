@@ -5,6 +5,7 @@ const Navigation = () => {
   return (
     <nav className="navigation">
     <ul>
+      <li><a href="#">Accueil</a></li>
       <li><a href="#about">A propos</a></li>
       <li><a href="#competences">Compétences</a></li>
       <li><a href="#travaux">Travaux</a></li>
