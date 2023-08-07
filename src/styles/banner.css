@@ -19,6 +19,7 @@
   flex-direction:column;
   margin-left: 8%;
   margin-bottom: 100px;
+  width: 100%;
 }
 
 .title_div p {
@@ -34,10 +35,15 @@
 @media screen and (max-width: 767px) {
   .banner h1{
     font-size: 44px;
-
   }
 
   .banner h2{
     text-align: left;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .banner h1 {
+    max-width: 320px;
   }
 }
