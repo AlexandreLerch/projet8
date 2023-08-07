@@ -18,7 +18,8 @@
 		"tags": [
 			"mise en page"
 		],
-		"link": "https://alexhcrel.github.io/openclassrooms-projet2-booki/"
+		"link": "https://alexhcrel.github.io/openclassrooms-projet2-booki/",
+		"encart": "lien vers le site"
 	},
 
 	{
@@ -41,7 +42,8 @@
 		"tags": [
 			"mise en page"
 		],
-		"link": "https://alexhcrel.github.io/sb_sans_backend/index.html"
+		"link": "https://alexhcrel.github.io/sb_sans_backend/index.html",
+		"encart": "lien vers le site"
 	},
 
 	{
@@ -64,10 +66,10 @@
 		"tags": [
 			"mise en page"
 		],
-		"link": "http://www.kasa.alerch.fr/"
+		"link": "http://www.kasa.alerch.fr/",
+		"encart": "lien vers le site"
 	},
 
-	
 	{
 		"id": "004",
 		"title": "Vieux Grimoires",
@@ -87,7 +89,7 @@
 		"tags": [
 			"mise en page"
 		],
-		"link": "#"
+		"link": "https://github.com/alexhcrel/openclassrooms-projet7-vieux-grimoires.git",
+		"encart": "lien vers le code du site"
 	}
-
 ]

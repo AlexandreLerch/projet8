@@ -9,10 +9,10 @@ const Carrousel = ({ objet }) => {
   console.log(objet[0].cover);
 
   const covers = objet.map((objet) => objet.cover);
-  console.log(covers);
   const links = objet.map((objet) => objet.link);
   const descriptions = objet.map((objet) => objet.description);
   const titles = objet.map((objet) => objet.title);
+  const encarts = objet.map((objet) => objet.encart);
   console.log(descriptions);
 
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -51,6 +51,8 @@ const Carrousel = ({ objet }) => {
   const textToPass = descriptions[currentIndex];
   console.log(textToPass);
   const title = titles[currentIndex];
+  const encart = encarts[currentIndex];
+  console.log(title)
 
   return (
     <div className="carroussel_et_modale">
@@ -61,13 +63,13 @@ const Carrousel = ({ objet }) => {
         ></div>
 
         <div className="center">
-          <a href={links[currentLink]} target="_blank" title="mon texte à voir">
+          <a href={links[currentLink]} target="_blank" rel="noreferrer" title={encart}>
             <div
               className="slideStyles"
               style={{ backgroundImage: `url(${covers[currentIndex]})` }}
             ></div>
           </a>
-          <p className="modale" title="info">
+          <p className="modale">
             {textToPass}
           </p>
           <h2>{title}</h2>

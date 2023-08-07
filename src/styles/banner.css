@@ -21,3 +21,12 @@
   margin-bottom: 100px;
 }
 
+.title_div p {
+  max-width: 400px
+}
+
+@media screen and (max-width: 1024px) {
+  .banner {
+    width: 95%;
+  }
+}

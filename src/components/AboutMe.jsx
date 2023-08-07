@@ -17,13 +17,13 @@ const AboutMe = () => {
 
         </p>
         <div className="liens">
-          <a href="https://www.facebook.com/openclassroomsfr">
+          <a href="https://www.facebook.com/openclassroomsfr" target="_blank" rel="noreferrer">
             <img src="icons8-facebook-nouveau.svg" alt="Icône Facebook"></img>
           </a>
-          <a href="https://www.instagram.com/openclassrooms/r">
+          <a href="https://www.instagram.com/openclassrooms/" target="_blank" rel="noreferrer">
             <img src="icons8-instagram.svg" alt="Icône Facebook"></img>
           </a>
-          <a href="https://github.com/alexhcrel?tab=repositories">
+          <a href="https://github.com/alexhcrel?tab=repositories" target="_blank" rel="noreferrer">
             <img src="icons8-github.svg" alt="Icône Facebook"></img>
           </a>
         </div>

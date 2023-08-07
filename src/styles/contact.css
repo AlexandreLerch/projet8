@@ -49,7 +49,7 @@ input {
 textarea {
 resize: none;
     height: 180px;
-    width: 550px;
+    width: 100%;
 }
 
 form div {
@@ -93,5 +93,21 @@ form div {
         cursor: pointer;
     font-size: 18px;
     color: grey;
+
+}
+
+@media screen and (max-width: 767px) {
+.contact{
+    padding-inline: 25px;
+}
+
+p {
+width: 80%;
+
+}
+form {
+    width: 80%
+}
+
 
 }

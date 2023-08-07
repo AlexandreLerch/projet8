@@ -1,65 +1,62 @@
 .competences {
-padding-top: 65px;
+  padding-top: 65px;
   display: flex;
-flex-direction: column;
+  flex-direction: column;
   position: relative;
-    height: auto;
-    background: none;
-    justify-content: center;
-    z-index:1;
-    padding-bottom: 40px;
-  }
+  height: auto;
+  background: none;
+  justify-content: center;
+  z-index: 1;
+  padding-bottom: 40px;
+  padding-inline : 20px;
+}
 
-  .competences .comp {
-    height: 80%;
-    display: flex;
-    flex-direction:column;
-    margin-left: 8%;
-    justify-content: space-between;
-    width: 100%;
-    /* margin-bottom: 100px; */
-  }
-
-.competences .comp ul {
-  margin-top: 25px;
-  padding-right: 30px;
+.competences .comp {
   display: flex;
+  flex-direction: column;
   width: 100%;
-  height: 100%;
-  flex-direction: column;
+  height: 80%;
+  margin-left: 8%;
   justify-content: space-between;
+  margin-top: 25px;
 }
 
-.competences ul li {
-  width: auto;
+.competences .comp h1{
+margin-bottom: 25px;
+}
+
+.competences .comp h3{
+margin-bottom: 15px;
+margin-top: 30px;
+}
+
+.competences .comp ul{
+padding-inline: 25px;
+  }
+
+.competences .comp #langages {
   display: flex;
-  flex-direction: column;
-  padding-bottom: 30px;
+  width: auto;
+  gap: 25px;
+  flex-wrap: wrap;
 }
 
-.competences ul li h3{
-padding-bottom: 15px;
-}
-
-.competences ul li #langages {
-display: flex;
-width: auto;
-gap: 25px;
-flex-wrap: wrap;
+.competences .comp #logiciels {
+  display: flex;
+  width: auto;
+  gap: 25px;
+  flex-wrap: wrap;
 }
 
 .competences img {
- height: 50px;
- border-radius: 8px;
+  height: 50px;
+  border-radius: 8px;
 }
 
 .competences .react {
-background-color: #fff;
+  background-color: #fff;
 }
 
-.competences ul li #logiciels {
-display: flex;
-width: auto;
-gap: 25px;
-flex-wrap: wrap;
-}
+
+
+

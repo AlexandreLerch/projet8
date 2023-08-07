@@ -7,8 +7,7 @@ const Competences = () => {
         <section className="competences" id="competences">
             <div className="comp">
             <h1 >Mes compétences</h1>
-            <ul>
-                <li>
+       
                     <h3>Développement web</h3>
                     <div id="langages">
                         <img className="logiciel" src="/images/html5.png" alt="logo-html5"></img>
@@ -18,9 +17,9 @@ const Competences = () => {
                         <img className="logiciel" src="/images/nodejs.png" alt="logo-nodejs"></img>
                         <img className="logiciel" src="/images/express.png" alt="logo-express"></img>
                     </div>
-                    <div></div>
-                    </li>
-                <li><h3>Autres compétences informatiques</h3>
+                
+                  
+                <h3>Autres compétences informatiques</h3>
                 <div id="logiciels">
                         <img className="logiciel" src="/images/office.jpg" alt="logo-office"></img>
                         <img className="logiciel" src="/images/photoshop.png" alt="logo-photoshop"></img>
@@ -28,16 +27,15 @@ const Competences = () => {
                         <img className="logiciel react" src="/images/lightroom.png" alt="logo-lightroom"></img>
                        
                     </div>
-                    </li>
-                <li><h3>Connaissances générales</h3>
-                    <p>- Connaissances naturalistes : entomologie, ornithologie, herpétologie</p>
-                    <p>- Titulaire d'un doctorat en neurosciences, mention ethologie</p>
-                    <p>- Photographe amateur</p>
-                </li>
-            </ul>
-            </div>
-
             
+               <h3>Connaissances générales</h3>
+                    <ul>
+                        <li>- Connaissances naturalistes : entomologie, ornithologie, herpétologie</li>
+                        <li>- Titulaire d'un doctorat en neurosciences, mention ethologie</li>
+                        <li>- Photographe amateur</li>
+                    </ul>
+            
+            </div>
         </section>
     );
 };

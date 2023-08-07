@@ -121,13 +121,15 @@ h2 {
 
 .element {
   position: relative;
+
 }
 
-.element::before {
+.element::after {
   content: attr(title);
   position: absolute;
-  display: none; /* Masque l'étiquette par défaut */
-  /* Autres styles pour l'étiquette */
+  /* display: none; */
+
+
 }
 
 
