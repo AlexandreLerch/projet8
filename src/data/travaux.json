@@ -3,7 +3,7 @@
 		"id": "001",
 		"title": "booki",
 		"cover": "/images/Image1.png",
-		"description": "Ma mission était de faire la mise en page du site Booki, spécialisé dans la location de logements entre particuliers. A partir d'une maquette réalisée sur Figma, j'ai réalisé la partie frontend du site en utilisant les langages HTML et CSS.",
+		"description": "Projet réalisé lors de ma formation chez Openclassrooms. Ma mission était de faire la mise en page du site Booki, spécialisé dans la location de logements entre particuliers. A partir d'une maquette réalisée sur Figma, j'ai réalisé la partie frontend du site en utilisant les langages HTML et CSS.",
 		"langages": [
 			"html",
 			"css"
@@ -26,7 +26,7 @@
 		"id": "002",
 		"title": "Sophie Bluel",
 		"cover": "/images/Image2.png",
-		"description": "Cette mission consistait à rendre le portfolio d'une architecte d'intérieur dynamique. En utilisant JAVSCRIPT, j'ai créé une modale de connection qui donnait accès à la gestion des projets (ajout, suppression, modification...). La mise en page a été réalisée en HTLM ET CSS.",
+		"description": "Projet réalisé lors de ma formation chez Openclassrooms. Cette mission consistait à rendre le portfolio d'une architecte d'intérieur dynamique. En utilisant JAVSCRIPT, j'ai créé une modale de connection qui donnait accès à la gestion des projets (ajout, suppression, modification...). La mise en page a été réalisée en HTLM ET CSS.",
 		"langages": [
 			"html",
 			"css",
@@ -50,7 +50,7 @@
 		"id": "003",
 		"title": "Kaza",
 		"cover": "/images/Image3.png",
-		"description": "Kasa est un site de réservation de logements entreparticuliers. Pour développer le frontend du site, j'ai utilisé la bibliothèque REACT, qui m'a permis de gérer la mise en place des différents composants.",
+		"description": "Projet réalisé lors de ma formation chez Openclassrooms.  Kasa est un site de réservation de logements entreparticuliers. Pour développer le frontend du site, j'ai utilisé la bibliothèque REACT, qui m'a permis de gérer la mise en place des différents composants, dont les plus notoires sont le carrousel et les 'collapses'",
 		"langages": [
 			"html",
 			"css",
@@ -74,7 +74,7 @@
 		"id": "004",
 		"title": "Vieux Grimoires",
 		"cover": "/images/Image4.png",
-		"description": "Les vieux grimoires est un site développé pour une chaine de librairies, permettant aux utilisateurs de noter leurs lectures. J'ai réalisé la partie backend du site en utilisant le framework EXPRESS de NODE.JS.",
+		"description": "Projet réalisé lors de ma formation chez Openclassrooms. 'Les vieux grimoires' est un site développé pour une chaine de librairies, permettant aux utilisateurs de noter leurs lectures. J'ai réalisé la partie backend du site en utilisant le framework EXPRESS de NODE.JS. Les compétences développées ici sont principalement la création des APIs REST",
 		"langages": [
 			"html",
 			"css"
