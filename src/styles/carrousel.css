@@ -142,6 +142,10 @@ h2 {
 }
 
 @media screen and (max-width: 767px) {
+  h2 {
+    display: none;
+  }
+  
   .slideStylesA {
     display: none;
   }
