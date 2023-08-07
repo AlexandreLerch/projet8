@@ -98,7 +98,13 @@ form div {
 
 @media screen and (max-width: 767px) {
 .contact{
+    padding-top: 85px;
     padding-inline: 25px;
+    font-size: 44px;
+}
+
+.contact a {
+    font-size: 18px;
 }
 
 p {

@@ -33,3 +33,10 @@ strong {
   justify-content: space-between;
   align-items: center;
 }
+
+@media screen and (max-width: 767px) {
+  .aboutMe h1{
+    width: 90%;
+    font-size: 44px;
+  }
+}

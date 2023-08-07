@@ -30,3 +30,14 @@
     width: 95%;
   }
 }
+
+@media screen and (max-width: 767px) {
+  .banner h1{
+    font-size: 44px;
+
+  }
+
+  .banner h2{
+    text-align: left;
+  }
+}

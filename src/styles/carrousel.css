@@ -29,7 +29,6 @@
   border-radius: 25px;
   margin-inline: auto;
   box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
-
 }
 
 .center {
@@ -116,28 +115,23 @@ a .slideStyles {
 h2 {
   padding-top: 20px;
   font-weight: 600;
-  width: 450px;
   text-align: center;
   font-size: 22px;
 }
+
 .center a:hover + .modale {
   display: flex;
   opacity: 1;
 }
 
-
-
 .element {
   position: relative;
-
 }
 
 .element::after {
   content: attr(title);
   position: absolute;
   /* display: none; */
-
-
 }
 
 @media screen and (max-width: 1024px) {
@@ -157,5 +151,11 @@ h2 {
 
   .modale {
     opacity: 1;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .fleches {
+    width: 340px;
   }
 }
