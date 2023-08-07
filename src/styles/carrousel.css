@@ -3,7 +3,6 @@
   flex-direction: column;
   width: 80%;
   align-items: center;
-
 }
 
 .carrousel {
@@ -24,11 +23,13 @@
   justify-content: center;
   position: relative;
   align-items: center;
-  background-position: center;
+  background-position: top;
   background-size: cover;
   justify-content: space-between;
   border-radius: 25px;
   margin-inline: auto;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
+
 }
 
 .center {
@@ -42,16 +43,19 @@
 }
 
 a .slideStyles {
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
   position: relative;
+  box-shadow: 25px;
   display: flex;
-  width: 270px;
-  border-bottom: 1px solid grey;
+  width: 300px;
+  /* border-bottom: 1px solid grey; */
   height: 350px;
   justify-content: center;
   position: relative;
   align-items: center;
-  background-position: center;
+  background-position: top;
   background-size: cover;
+  /* border: solid grey 1px; */
   border-radius: 25px;
   margin-inline: none;
   z-index: 1;
@@ -64,10 +68,11 @@ a .slideStyles {
   justify-content: center;
   position: relative;
   align-items: center;
-  background-position: center;
+  background-position: top;
   background-size: cover;
   justify-content: space-between;
   border-radius: 25px;
+ box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
   margin-inline: auto;
 }
 
@@ -111,6 +116,9 @@ a .slideStyles {
 h2 {
   padding-top: 20px;
   font-weight: 600;
+  width: 450px;
+  text-align: center;
+  font-size: 22px;
 }
 .center a:hover + .modale {
   display: flex;
@@ -132,10 +140,11 @@ h2 {
 
 }
 
-
-
-
-
+@media screen and (max-width: 1024px) {
+  a .slideStyles {
+    width: 260px;
+  }
+}
 
 @media screen and (max-width: 767px) {
   .slideStylesA {
