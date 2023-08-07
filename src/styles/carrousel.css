@@ -112,7 +112,7 @@ a .slideStyles {
   text-align: justify;
 }
 
-h2 {
+.carrousel h2 {
   padding-top: 20px;
   font-weight: 600;
   text-align: center;
@@ -142,7 +142,7 @@ h2 {
 }
 
 @media screen and (max-width: 767px) {
-  h2 {
+ .carrousel h2 {
     display: none;
   }
   
