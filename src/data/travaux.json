@@ -26,7 +26,7 @@
 		"id": "002",
 		"title": "Sophie Bluel - portfolio d'architecte",
 		"cover": "/images/image2.jpg",
-		"description": "Projet réalisé lors de ma formation chez Openclassrooms. Cette mission consistait à rendre le portfolio d'une architecte d'intérieur dynamique. En utilisant JAVSCRIPT, j'ai créé une modale de connection qui donnait accès à la gestion des projets (ajout, suppression, modification...). La mise en page a été réalisée en HTLM ET CSS.",
+		"description": "Projet réalisé lors de ma formation chez Openclassrooms. Cette mission consistait à rendre le portfolio d'une architecte d'intérieur dynamique. En utilisant JAVASCRIPT, j'ai créé une modale de connection qui donnait accès à la gestion des projets (ajout, suppression, modification...). La mise en page a été réalisée en HTML ET CSS.",
 		"langages": [
 			"html",
 			"css",
