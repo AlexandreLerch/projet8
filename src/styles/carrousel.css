@@ -142,6 +142,10 @@ a .slideStyles {
 }
 
 @media screen and (max-width: 767px) {
+.carrousel {
+  padding-bottom: 60px;
+}
+
  .carrousel h2 {
     display: none;
   }
