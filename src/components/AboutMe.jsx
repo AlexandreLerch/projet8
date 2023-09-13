@@ -16,13 +16,13 @@ const AboutMe = () => {
 
         </p>
         <div className="liens">
-          <a href="https://www.linkedin.com/in/alexandre-lerch/" target="_blank" rel="noreferrer" title="consultez mon profil linkedin">
+          <a href="https://www.linkedin.com/in/alexandre-lerch/" target="_blank" rel="noreferrer" message="Consultez mon profil linkedin !">
             <img src="linkedin-icon-svgrepo-com.svg" alt="Icône linkedin"></img>
           </a>
           {/* <a href="https://www.instagram.com/openclassrooms/" target="_blank" rel="noreferrer">
             <img src="icons8-instagram.svg" alt="Icône Instagram"></img>
           </a> */}
-          <a href="https://github.com/alexhcrel?tab=repositories" target="_blank" rel="noreferrer" title="consultez ma page github">
+          <a href="https://github.com/alexhcrel?tab=repositories" target="_blank" rel="noreferrer" message="Consultez ma page github !">
             <img src="icons8-github.svg" alt="Icône github"></img>
           </a>
         </div>

@@ -35,19 +35,19 @@ strong {
   align-items: center;
 }
 
-a {
+.liens a {
   position: relative;
 }
 
-a::before {
-  content: attr(title);
+.liens a::before {
+  content: attr(message);
   position: absolute;
   opacity: 0;
   transition: opacity 0.3s ease;
   bottom: -120%;
   left: 50%;
   transform: translateX(-50%);
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 1);
   color: #fff;
   padding: 5px 10px;
   border-radius: 5px;
@@ -55,7 +55,7 @@ a::before {
   text-align: center;
 }
 
-a:hover::before {
+.liens a:hover::before {
   opacity: 1;
 }
 

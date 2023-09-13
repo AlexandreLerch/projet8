@@ -17,7 +17,7 @@ const Tableau = ({ objet }) => {
          {/* Utilisez les tableaux pour afficher vos données */}
       {titles.map((title, index) => (
         <div className="card" key={index}>
-          <a href={links[index]} target="_blank" rel="noreferrer" title={encart[index]}>
+          <a href={links[index]} target="_blank" rel="noreferrer" message={encart[index]}>
             <img src={covers[index]} alt={title} />
           </a>
           <div className= "descriptif">
