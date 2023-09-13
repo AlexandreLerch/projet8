@@ -1,3 +1,9 @@
+:root {
+    --cd-txt: #3a2d9a;
+    --cd-danger: #b20a37;
+    --cd-txt--invalid: #fff;
+}
+
 .contact {
     padding-top: 55px;
     position: relative;
@@ -20,11 +26,11 @@
 }
 
 .contact a:hover {
-
 font-weight: 400;
 }
 
 form {
+    
     position: relative;
     display: flex;
     align-items: left;
@@ -44,12 +50,25 @@ input {
     height: 35px;
     margin-bottom: 20px;
     font-size: 20px;
+    border-radius: 13px;
+    box-shadow: 10px 10px 5px 0px #888888;
+    transition: background-color 200ms;
+    &:focus {
+        background-color: var(--cd-txt);
+        }
+        &:not(:focus):invalid {
+        background: var(--cd-danger);
+        border: 2px solid var(--cd-danger);
+        color: var(--cd-txt--invalid);
+    }
 }
 
 textarea {
 resize: none;
     height: 180px;
     width: 100%;
+    border-radius: 13px;
+    box-shadow: 10px 10px 5px 0px #888888;
 }
 
 form div {

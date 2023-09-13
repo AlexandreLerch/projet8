@@ -7,23 +7,59 @@
   margin-inline: auto;
   width: 100%;
   justify-content: space-between;
-  align-items: flex-end;
-}
-
-.banner h2 {
-  padding-bottom: 20px;
+  align-items: flex-start;
 }
 
 .title_div {
   display: flex;
-  flex-direction:column;
+  flex-direction: column;
   margin-left: 8%;
-  margin-bottom: 100px;
   width: 100%;
+  height: 100%;
 }
 
-.title_div p {
-  max-width: 400px
+.defilement {
+
+  display: flex;
+  margin-top: 110px;
+  margin-bottom: 65px;
+  height: 110px;
+  align-items: center;
+  background-color: rgba(30, 24, 86, 0);
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 40px;
+  overflow: hidden; /* Masquer le débordement du texte */
+  position: relative; /* Position relative pour utiliser translateX */
+}
+
+.defilement h1 {
+  white-space: nowrap; /* Pas de passage à la ligne */
+  animation: defilement-rtl 8s infinite linear;
+  position: absolute; /* Position absolue pour utiliser translateX */
+  transform: translateX(100%); 
+}
+
+@keyframes defilement-rtl {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%); /* Déplacez le texte entièrement hors de la vue à droite */
+  }
+}
+
+.paragraphe {
+  max-width: 400px;
+  background-color: rgba(30, 24, 86, 0);
+  border-radius: 40px;
+  padding: 15px;
+  text-align: center;
+  
+
+}
+
+.spacer {
+  margin-top: 20px; /* Ajustez la valeur selon l'espace souhaité entre les paragraphes */
 }
 
 @media screen and (max-width: 1024px) {

@@ -8,23 +8,22 @@ const AboutMe = () => {
         <h1>A propos de moi...</h1>
         <p>
           Je suis <strong>Alexandre Lerch, développeur fullstack</strong> en freelance. Après avoir exploré différents milieux professionnels, je me suis lancé dans le développement web.
-          <br />
-          
-          Après une année de formation chez <strong>OpenClassrooms</strong>, je maitrise les bases des principales technologies utilisées actuellement.
+          <br /><br />
+          Formé auprès de l'organisme "<strong>OpenClassrooms</strong>", je maitrise les principales technologies utilisées actuellement.
           <br />
           <br />
           Particulièrement soigneux, j'apporte une importance particulière à la propreté de mes réalisations et à la qualité de mes échanges avec mes clients.
 
         </p>
         <div className="liens">
-          <a href="https://www.facebook.com/openclassroomsfr" target="_blank" rel="noreferrer">
-            <img src="icons8-facebook-nouveau.svg" alt="Icône Facebook"></img>
+          <a href="https://www.linkedin.com/in/alexandre-lerch/" target="_blank" rel="noreferrer" title="consultez mon profil linkedin">
+            <img src="linkedin-icon-svgrepo-com.svg" alt="Icône linkedin"></img>
           </a>
-          <a href="https://www.instagram.com/openclassrooms/" target="_blank" rel="noreferrer">
-            <img src="icons8-instagram.svg" alt="Icône Facebook"></img>
-          </a>
-          <a href="https://github.com/alexhcrel?tab=repositories" target="_blank" rel="noreferrer">
-            <img src="icons8-github.svg" alt="Icône Facebook"></img>
+          {/* <a href="https://www.instagram.com/openclassrooms/" target="_blank" rel="noreferrer">
+            <img src="icons8-instagram.svg" alt="Icône Instagram"></img>
+          </a> */}
+          <a href="https://github.com/alexhcrel?tab=repositories" target="_blank" rel="noreferrer" title="consultez ma page github">
+            <img src="icons8-github.svg" alt="Icône github"></img>
           </a>
         </div>
       </div>

@@ -7,9 +7,14 @@ const Banner = () => {
   return (
     <section className="banner">
       <div className="title_div">
-        <h1>Alexandre Lerch</h1>
-        <h2>Développeur full stack</h2>
-        <p>A travers cette page, je vous invite à découvrir mes compétences et mes réalisations... </p>
+        <div className="defilement">
+          <h1>Alexandre Lerch - Développeur full stack </h1>
+        </div>
+        <div className = "paragraphe">
+          <p>A travers cette page, je vous invite à découvrir mes compétences et mes réalisations...</p>
+          <p className="spacer"></p>
+          <p>Passionné de Javascript, j'apprécie tout particulièremenet le framework REACT, mais j'utilise volontiers d'autres technologies telles que NodeJS pour le backend...</p>
+        </div>
       </div>
     </section>
   );

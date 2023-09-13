@@ -77,7 +77,9 @@
 		"description": "Projet réalisé lors de ma formation chez Openclassrooms. 'Les vieux grimoires' est un site développé pour une chaine de librairies, permettant aux utilisateurs de noter leurs lectures. J'ai réalisé la partie backend du site en utilisant le framework EXPRESS de NODE.JS. Les compétences développées ici sont principalement la création des APIs REST",
 		"langages": [
 			"html",
-			"css"
+			"css",
+			"nodeJS",
+			"Express"
 		],
 		"compétences": [
 			"responsive",

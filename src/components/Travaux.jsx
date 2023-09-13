@@ -1,5 +1,6 @@
 import React from "react";
-import Carrousel from "./Carrousel";
+/*import Carrousel from "./Carrousel";*/
+import Tableau from "./Tableau";
 
 import jsonData from "../data/travaux.json";
 import "../styles/travaux.css";
@@ -16,9 +17,10 @@ const Travaux = () => {
           <h1>Mes travaux</h1>
      
          {/* <p> je tente de sortir la description : {description}</p> */}
-  </div>
+        </div>
 
-          <Carrousel key={objet.id} objet={objet} id="carrousel"/>
+        <Tableau key={objet.id} objet={objet} id="tableau"/>
+      {/* <Carrousel key={objet.id} objet={objet} id="carrousel"/> */}
        
         </section>
     );
