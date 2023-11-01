@@ -16,6 +16,7 @@ const Competences = () => {
                         <img className="logiciel react" src="/images/react.png" alt="logo-react"></img>
                         <img className="logiciel" src="/images/nodejs.png" alt="logo-nodejs"></img>
                         <img className="logiciel" src="/images/express.png" alt="logo-express"></img>
+                        <img className="logiciel" src="/images/sass.png" alt="logo-sass"></img>
                     </div>
                 
                   
