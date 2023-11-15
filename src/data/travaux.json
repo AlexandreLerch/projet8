@@ -93,5 +93,30 @@
 		],
 		"link": "https://github.com/alexhcrel/openclassrooms-projet7-vieux-grimoires.git",
 		"encart": "lien vers le code du site"
+	},
+	{
+		"id": "005",
+		"title": "Erica Nelband - Cours de musique à domicile",
+		"cover": "/images/image5.png",
+		"description": "Il s'agit de la réalisation d'un site vitrine pour une professeure de musique qui se déplace à domicile. J'ai utilisé les technologies HTML,CSS, JavaScript et React pour créer ce site",
+		"langages": [
+			"html",
+			"css",
+			"JavaScript",
+			"React"
+		],
+		"compétences": [
+			"Animations CSS",
+			"Javascript",
+			"ancres"
+			],
+		
+		"contexte": "Développement freelance",
+			
+		"tags": [
+			"mise en page"
+		],
+		"link": "https://alexhcrel.github.io/erica-nelband/",
+		"encart": "lien vers le site"
 	}
 ]
