@@ -19,7 +19,6 @@
 }
 
 .defilement {
-
   display: flex;
   margin-top: 110px;
   margin-bottom: 65px;
@@ -54,8 +53,6 @@
   border-radius: 40px;
   padding: 15px;
   text-align: center;
-  
-
 }
 
 .spacer {
