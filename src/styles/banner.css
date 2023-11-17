@@ -1,7 +1,7 @@
 .banner {
   position: relative;
   display: flex;
- z-index: 2;
+ z-index: 7;
   height: 600px;
   background: none;
   margin-inline: auto;
@@ -13,42 +13,83 @@
 .title_div {
   display: flex;
   flex-direction: column;
-  margin-left: 8%;
   width: 100%;
   height: 100%;
 }
 
 .defilement {
+  z-index: 52;
+  position: absolute;
   display: flex;
-  margin-top: 110px;
+  margin-left: 65px;
+ top: 0;
+ padding-top: 110px;
   margin-bottom: 65px;
-  height: 110px;
+  height: 255px;
   align-items: center;
   background-color: rgba(30, 24, 86, 0);
   border-top-left-radius: 40px;
   border-bottom-left-radius: 40px;
   overflow: hidden; /* Masquer le débordement du texte */
   position: relative; /* Position relative pour utiliser translateX */
+
 }
 
-.defilement h1 {
-  white-space: nowrap; /* Pas de passage à la ligne */
-  animation: defilement-rtl 8s infinite linear;
-  position: absolute; /* Position absolue pour utiliser translateX */
-  transform: translateX(100%); 
+.defilement .lettre {
+  font-family: Bubble1;
+  font-size: 120px;
+  position: absolute;
 }
 
-@keyframes defilement-rtl {
+.a {left: 0; color: red; transform: translateY(-350px); animation: chute 500ms 1500ms; animation-fill-mode: forwards;}
+.b {left: 120px; color: blue; transform: translateY(-350px); animation: chute 500ms 400ms; animation-fill-mode: forwards;}
+.c {left: 200px; color: yellow; transform: translateY(-350px); animation: chute 500ms 500ms; animation-fill-mode: forwards; }
+.d {left: 290px; color: red; transform: translateY(-350px); animation: chute 500ms 600ms; animation-fill-mode: forwards;}
+.e {left: 400px; color: green; transform: translateY(-350px); animation: chute 500ms 700ms; animation-fill-mode: forwards;}
+.f {left: 500px; color:blueviolet; transform: translateY(-350px); animation: chute 500ms 800ms; animation-fill-mode: forwards;}
+.g {left: 600px; color:bisque; transform: translateY(-350px); animation: chute 500ms 900ms; animation-fill-mode: forwards;}
+.h {left: 700px; color:aqua; transform: translateY(-350px); animation: chute 500ms 400ms; animation-fill-mode: forwards;}
+.i {left: 800px;color:blue; transform: translateY(-350px); animation: chute 500ms 500ms; animation-fill-mode: forwards;}
+.j {left: 900px; color:darkmagenta; transform: translateY(-350px); animation: chute 500ms 400ms; animation-fill-mode: forwards;}
+.k {left: 1000px; color:mediumpurple;transform: translateY(-350px); animation: chute 500ms 1700ms; animation-fill-mode: forwards;}
+.l {left: 1100px; color:springgreen; transform: translateY(-350px); animation: chute 500ms 400ms; animation-fill-mode: forwards;}
+.m {left: 1200px; color:darkseagreen; transform: translateY(-350px); animation: chute 500ms 700ms; animation-fill-mode: forwards;}
+.n {left: 1300px; color:lawngreen; transform: translateY(-350px); animation: chute 500ms 400ms; animation-fill-mode: forwards;}
+.o {left: 1400px; color:firebrick; transform: translateY(-350px); animation: chute 500ms 600ms; animation-fill-mode: forwards;}
+
+
+.defilement .maj {
+  font-size: 145px;
+}
+@keyframes chute {
+  0% {
+    transform: translateY(-100%);
+}20% {
+    transform: translateY(0);
+}
+40% {
+  transform: translateY(-30%);
+  transform: scaleY(0.6);
+}
+
+100% {
+  transform: scaleY(1);
+}
+
+
+}
+
+/* @keyframes defilement-rtl {
   0% {
     transform: translateX(100%);
   }
   100% {
-    transform: translateX(-100%); /* Déplacez le texte entièrement hors de la vue à droite */
+    transform: translateX(-100%); Déplacez le texte entièrement hors de la vue à droite 
   }
-}
+} */
 
 .paragraphe {
-  max-width: 400px;
+  /* max-width: 400px; */
   background-color: rgba(30, 24, 86, 0);
   border-radius: 40px;
   padding: 15px;
